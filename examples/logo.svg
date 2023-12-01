@@ -4,6 +4,6 @@
                         font-size: 30px
                     }
                 </style>
-                <circle cx='100' cy='80' r="70" fill="Green" />
-                <text x="100" y="85" text-anchor="middle" alignment-baseline="middle"  fill="Blue">ARR</text>
+                <polygon points="150, 18 244, 182 56, 182" fill="Black" />
+                <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" fill="White">LBG</text>
             </svg>

@@ -1,3 +1,8 @@
 const generateLogo = require('./lib/generateLogo.js')
 
-generateLogo.renderLogo()
+async function init() {
+    let logo = await generateLogo.renderLogo()
+    console.log(logo)
+}
+
+init();

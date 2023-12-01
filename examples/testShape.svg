@@ -11,10 +11,21 @@
       stroke="green" fill="transparent" stroke-width="5"/>
 </svg> -->
 
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg width="300" length="200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text {
+            font-size: 30px
+        }
+    </style>
     <!-- <polygon points="150, 18 244, 182 56, 182" fill="blue" /> -->
+    <!-- <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" fill="white">SVG</text> -->
 
-    <!-- <circle cx='75' cy='75' r="60"/> -->
 
-    <!-- <rect x="50" y="50" width="200" height="200" /> -->
+    <!-- <circle cx='100' cy='80' r="70"/>
+     <text x="100" y="85" text-anchor="middle" alignment-baseline="middle" fill="white">SVG</text> -->
+
+
+    <!-- <rect x="50" y="25" width="125" height="125" /> -->
+    <!--<text x="115" y="90" text-anchor="middle" alignment-baseline="middle" fill="white">SVG</text> -->
+
 </svg>

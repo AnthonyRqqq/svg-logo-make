@@ -1,0 +1,9 @@
+<svg width="300" length="200" xmlns="http://www.w3.org/2000/svg">
+                <style>
+                    text {
+                        font-size: 30px
+                    }
+                </style>
+                <circle cx='100' cy='80' r="70" fill="Green" />
+                <text x="100" y="85" text-anchor="middle" alignment-baseline="middle"  fill="Blue">ARR</text>
+            </svg>

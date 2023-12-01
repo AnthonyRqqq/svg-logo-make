@@ -5,19 +5,25 @@ const fs = require('fs');
 
 // Asynchronous function for running the program
 async function init() {
+
     // Collects user input
     const logo = await generateLogo.renderLogo();
+    
     // Utilizes user input to construct SVG shape
     const constructShape = await shapes.generateShape(logo);
-    console.log(constructShape);
+
+    // Creates the new logo.svg file in examples folder
+    await writeToFile(constructShape);
 }
 
 // Starts program
 init();
 
-// const writeToFile = (constructShape) => {
-//     switch(constructShape) {
-//         case 'Square':
-//             fs.writeFile('new-SVG.svg')
-//     }
-// }
+// Generates new logo.svg file in examples folder with finished logo
+const writeToFile = (constructShape) => fs.writeFile('./examples/logo.svg', constructShape, (err) => {
+    if (err) {
+        console.error(err)
+    } else {
+        console.log('Generated logo.svg!')
+    }
+});

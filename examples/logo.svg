@@ -4,6 +4,6 @@
                         font-size: 30px
                     }
                 </style>
-                <rect x="50" y="25" width="125" height="125" fill="white" />
-                <text x="115" y="90" text-anchor="middle" alignment-baseline="middle" fill="white">svg</text>
+                <polygon points="150, 18 244, 182 56, 182" fill="Black" />
+                <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" fill="White">ARR</text>
             </svg>

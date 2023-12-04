@@ -22,7 +22,7 @@
     
  This project creates an SVG file with a logo based on user input. It allows for selection of circle, triangle, or square, and up to three characters entered for the logo.
     
-[SVG Logo Maker Demo Video](https://drive.google.com/file/d/1RPD5UsgWm1ZTao4AdZHpR0hnB5EeKTQx/view)
+[SVG Logo Maker Demo Video](https://drive.google.com/file/d/1fgevtzIBJ3ysC7dotiYuXBkE9DmsvF9o/view)
 ## Installation
     
  To install, clone the code to user machine.
